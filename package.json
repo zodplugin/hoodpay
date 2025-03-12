@@ -1,5 +1,5 @@
 {
-  "name": "@zellify/hoodpay",
+  "name": "hoodpay",
   "private": true,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -14,5 +14,20 @@
     "build": "tsc --build --force tsconfig.json",
     "build:watch": "tsc --build --force ./tsconfig.json --watch",
     "post-install": "pnpm build"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Hoodpay API is a lightweight and easy-to-use package designed to simplify payment integration with Hoodpay. Whether you're handling transactions, checking payment statuses, or processing callbacks, this package provides a seamless and secure way to integrate Hoodpay into your application.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zodplugin/hoodpay.git"
+  },
+  "keywords": [
+    "hoodpay"
+  ],
+  "author": "othersidedrl, zodplugin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zodplugin/hoodpay/issues"
+  },
+  "homepage": "https://github.com/zodplugin/hoodpay#readme"
 }
